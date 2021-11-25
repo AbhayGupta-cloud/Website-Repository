@@ -1,0 +1,63 @@
+/* message box of signup page*/
+#message,
+#message1 {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p,
+  #message1 p {
+    padding-left: 25px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid,
+  #message1.valid{
+    color: green;
+  }
+  
+  .valid:before,
+  #message1.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid,
+  #message1.invalid {
+    color: red;
+  }
+  
+  .invalid:before,
+  #message1.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+
+
+
+/* page distrebutor*/ 
+#or{
+  font-size: x-large;
+}
+
+/* Social media icons*/
+#ggl,#twt,#fac{
+  margin-left: 1px;
+}
+
+
+/*close button of modals*/
+.modal-header .close{
+  margin: -20px;
+}
+
+
+
